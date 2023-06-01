@@ -26,16 +26,16 @@ header h1{
     padding: 6px 12px;
 }
 
-.banner{
+.imageone{
     position: relative;
 }
 
-.banner img{
+.imageone img{
     width: 100%;
     max-width: 100%;
 }
 
-.banner .welcome{
+.imageone .welcome{
     position: absolute;
     top: 40%;
     left: 0;
@@ -44,11 +44,11 @@ header h1{
     padding: 30px;
 }
 
-.banner h2{
+.imageone h2{
     font-size: 40px;
 }
 
-.banner h2 span{
+.imageone h2 span{
     font-size: 1.2em;
 }
 nav{
@@ -152,14 +152,17 @@ footer{
     padding: 20px;
     text-align: center;
 }
-/* pseudo selecctors */
+
+
+/*pseudo selector*/
 nav li a:hover{
     text-decoration: underline;
 }
 
-/* form input:valid{
+/* form input:valid*/
+{
     border: 2px solid rgb(117, 217, 117);
-} */
+} 
 
 /* pseudo elements */
 article p::first-line{
